@@ -15,7 +15,7 @@ To install any addon packages, and this will automatically update the addon pack
 
 To install addon package without dependencies
 
-   r::package { "forecast" : dependencies => 'FALSE' }
+    r::package { "forecast" : dependencies => 'FALSE' }
    
 To remove package 
 
