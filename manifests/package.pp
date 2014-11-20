@@ -1,4 +1,4 @@
-define addon_package (
+define r::package (
         $repo = 'http://cran.rstudio.com',
         $dependencies = "TRUE",
         $ensure = 'present' ) {
